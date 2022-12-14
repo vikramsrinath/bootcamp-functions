@@ -36,7 +36,7 @@ def get_state(client, db_name, table_name):
 
 
 def handle(client: CogniteClient, data: Dict[str, Any]) -> None:
-    print(f"Input data of function: {data}")
+    print(f"Input data of function : {data}")
 
     # Input data
     lookback_minutes = data.get("lookback_minutes", 1440)
